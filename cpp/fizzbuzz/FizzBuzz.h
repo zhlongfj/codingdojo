@@ -11,7 +11,11 @@
 class FizzBuzz {
 
 public:
+    FizzBuzz(const int number): m_number(number) {};
     std::string numberOff();
+
+private:
+    const int m_number = 0;
 };
 
 

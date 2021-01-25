@@ -8,10 +8,10 @@
 SCENARIO("FizzBuzz", "FizzBuzz") {
     GIVEN("given an number") {
         WHEN("divisable by 3") {
-            CHECK(FizzBuzz().numberOff() == "Fizz");
+            CHECK(FizzBuzz(3).numberOff() == "Fizz");
         }
         WHEN("divisable by 5") {
-            CHECK(FizzBuzz().numberOff() == "Buzz");
+            CHECK(FizzBuzz(5).numberOff() == "Buzz");
         }
     }
 }
