@@ -5,6 +5,10 @@
 #include "FizzBuzz.h"
 
 std::string FizzBuzz::numberOff() {
+    if (m_number % 5 == 0 && m_number % 7 == 0) {
+        return "BuzzWhizz";
+    }
+
     if (m_number % 3 == 0 && m_number % 5 == 0) {
         return "FizzBuzz";
     }
