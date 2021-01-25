@@ -12,4 +12,8 @@ std::string FizzBuzz::numberOff() {
     if (m_number % 5 == 0) {
         return "Buzz";
     }
+
+    if (m_number % 7  == 0) {
+        return "Whizz";
+    }
 }
