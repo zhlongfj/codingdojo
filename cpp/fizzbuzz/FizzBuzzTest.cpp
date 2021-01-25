@@ -38,5 +38,9 @@ SCENARIO("FizzBuzz", "FizzBuzz") {
         WHEN("include 3") {
             CHECK(FizzBuzz(13).numberOff() == "Fizz");
         }
+
+        WHEN("normal number") {
+            CHECK(FizzBuzz(2).numberOff() == "2");
+        }
     }
 }
