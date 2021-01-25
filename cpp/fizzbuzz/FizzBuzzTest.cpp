@@ -13,5 +13,8 @@ SCENARIO("FizzBuzz", "FizzBuzz") {
         WHEN("divisable by 5") {
             CHECK(FizzBuzz(5).numberOff() == "Buzz");
         }
+        WHEN("divisable by 7") {
+            CHECK(FizzBuzz(7).numberOff() == "Whizz");
+        }
     }
 }
