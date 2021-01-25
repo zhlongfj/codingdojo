@@ -21,5 +21,5 @@ std::string FizzBuzz::numberOff() {
     if (m_number % 7  == 0) {
         result += "Whizz";
     }
-    return  result;
+    return  !result.empty() ? result : std::to_string(m_number);
 }
