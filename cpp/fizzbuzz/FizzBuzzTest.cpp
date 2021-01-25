@@ -3,6 +3,7 @@
 //
 #define CATCH_CONFIG_MAIN
 #include "../catch.hpp"
+#include "FizzBuzz.h"
 
 SCENARIO("FizzBuzz", "FizzBuzz") {
     GIVEN("given an number") {
