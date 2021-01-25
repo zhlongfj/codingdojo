@@ -8,7 +8,7 @@ std::string FizzBuzz::numberOff() {
     if (m_number % 3 == 0 && m_number % 5 == 0) {
         return "FizzBuzz";
     }
-    
+
     if (m_number % 3 == 0) {
         return "Fizz";
     }

@@ -22,5 +22,9 @@ SCENARIO("FizzBuzz", "FizzBuzz") {
         WHEN("divisable by 3 and 5") {
             CHECK(FizzBuzz(15).numberOff() == "FizzBuzz");
         }
+
+        WHEN("divisable by 3 and 7") {
+            CHECK(FizzBuzz(21).numberOff() == "FizzWhizz");
+        }
     }
 }
