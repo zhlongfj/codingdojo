@@ -2,7 +2,7 @@
 
 1 create new repository from github
 
-2 git clone git@github.com:zhlongfj/Dojo_Fibonacci.git
+2 git clone git@github.com:zhlongfj/codingdojo.git
 
 3 create project with clion, choose "Create from Existing Sources"
 
